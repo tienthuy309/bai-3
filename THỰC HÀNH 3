@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web của tôi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Yêu cầu 2: Liên kết "Chuyển đến nội dung chính" (Skip Link) -->
+    <a href="#main" class="skip-link">Chuyển đến nội dung chính</a>
+
+    <header>
+        <!-- Yêu cầu 4 & 5: Thanh điều hướng nav -->
+        <nav>
+            <img src="logo.png" alt="Logo trang web">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="park.html">Công viên</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Yêu cầu 2: Thêm id="main" vào thẻ main -->
+    <main id="main">
+        
+        <!-- Yêu cầu 6, 7, 8: Bố cục Grid 2 cột -->
+        <section class="grid">
+            <div>
+                <img src="park1.jpg" alt="Hình ảnh công viên 1">
+                <p>Mô tả 1</p>
+            </div>
+            <div>
+                <img src="park2.jpg" alt="Hình ảnh công viên 2">
+                <p>Mô tả 2</p>
+            </div>
+        </section>
+
+        <!-- Yêu cầu 9: Bố cục Flex -->
+        <section class="flex">
+            <div>
+                <img src="flex1.jpg" alt="Hình ảnh flex 1">
+            </div>
+            <div>
+                <img src="flex2.jpg" alt="Hình ảnh flex 2">
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
